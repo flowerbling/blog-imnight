@@ -1,0 +1,25 @@
+<div class="card twikoo-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div class="card-content" style="display: grid">
+        <div id="tcomments"></div>
+    </div>
+</div>
+<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.twikoo) %>"></script>
+<script>
+    twikoo.init({
+        envId: '<%- theme.twikoo.envId %>',
+        el: '#tcomments',
+        region: '<%- theme.twikoo.region %>',
+        path: '<%- theme.twikoo.path %>'
+    }).then(function () {
+        var tkInputs = document.querySelector('#twikoo').getElementsByTagName('input');
+        for (var tkInputsIndex = 0; tkInputsIndex < tkInputs.length; tkInputsIndex++) {
+            if (tkInputs[tkInputsIndex]) {
+                tkInputs[tkInputsIndex].classList.add('browser-default');
+            }
+        }
+    });
+</script>
