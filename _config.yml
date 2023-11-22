@@ -41,26 +41,32 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
+
+
 post_asset_folder: true
+
 # markdown 引用图片
 marked:
   prependRoot: true
   postAsset: true
+
 relative_link: false
 future: true
+
+# 语法高亮
+syntax_highlighter: prismjs
 highlight:
-  enable: true
+  enable: false
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
-
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
