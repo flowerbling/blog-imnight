@@ -286,7 +286,7 @@ myProjects:
 mySkills:
   enable: true
   data:
-    Java:
+    Python:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 85%
     JavaScript:
@@ -301,7 +301,7 @@ mySkills:
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 90%
-    程序设计:
+    Go:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
 
@@ -309,7 +309,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
