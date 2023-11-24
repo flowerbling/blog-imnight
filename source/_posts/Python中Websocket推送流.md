@@ -6,9 +6,9 @@ categories:
     - [Python]
 ---
 
-## Python中使用Sse推送bytes数据
-今天有这个需求 在直播的时候 如果有人提问 通过LLM回答这个问题并将答案转为音频流返回
-直接用Websocket来完成
+## Python中使用Websocket推送bytes数据
+有个需求 在直播的时候 如果有人提问 通过LLM回答这个问题并将答案转为音频流返回
+考虑直接用Websocket来完成
 
 1. 在fastapi框架下 使用websocket
 ```python
