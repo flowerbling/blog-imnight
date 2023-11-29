@@ -2,6 +2,8 @@
 title: g4f搭配fastapi使用
 date: 2023-11-29 14:07:21
 tags: [AIGC, Python, Stream]
+categories:
+    - Python
 ---
 
 ## G4f 介绍
