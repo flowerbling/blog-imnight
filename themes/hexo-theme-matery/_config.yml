@@ -658,9 +658,9 @@ translate:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://blog.wanheng.top/ # 备案链接
+  text: 晋ICP备2023014996号 # 备案信息
 
 # CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
