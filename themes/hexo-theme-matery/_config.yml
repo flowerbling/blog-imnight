@@ -264,21 +264,21 @@ profile:
 myProjects:
   enable: true
   data:
-    hexo-theme-matery:
+    modeltools:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
+      url: https://github.com/flowerbling/modeltools
+      desc: 魔搭社区模型库 从魔搭社区里拿一些有意思的模型自己用
+    modeltools-frontend:
         icon: fas fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
         url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
+        desc: The frontend of modeltools。
+    famous-avatar-weapp:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+        url: https://github.com/flowerbling/famous-avatar-weapp
+        desc: 博客小程序.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
