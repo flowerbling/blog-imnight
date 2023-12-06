@@ -8,6 +8,7 @@ categories:
 
 ## 重温Go
 > 一眨眼已经将近一年不写Golang的项目了 今天又接触Golang
+用go实现一遍调用openai回答问题并转为音频用steam-event返回
 ### 克隆项目
 github 权限开通之后 克隆项目到本地
 ```bash
