@@ -241,7 +241,17 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /* 绿色调 */
+    /* background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%); */
+    /* 橙色调 */
+    /* background-image: linear-gradient(to right, #FFC371 0%, #FF5F6D 100%); */
+    /* background-image: linear-gradient(to right, #FBD786 0%, #f7797d 100%); */
+    /* 水蜜桃 */
+    /* background-image: linear-gradient(to right, #FAD0C4 0%, #FF9A9E 100%); */
+    /* 黑色调 */
+    /* background-image: linear-gradient(to right, #2F4052 0%, #B2B9BE 100%); */
+    /* 紫色调 */
+    background-image: linear-gradient(to right, #F902FF 0%, #00DBDE 100%);
 }
 
 .text-color {
