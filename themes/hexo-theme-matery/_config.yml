@@ -660,7 +660,7 @@ translate:
 #ICP备案信息尾部显示
 icp:
   enable: true
-  url: https://blog.wanheng.top/ # 备案链接
+  url: https://beian.miit.gov.cn # 备案链接
   text: 晋ICP备2023014996号 # 备案信息
 
 # CDN访问加速
