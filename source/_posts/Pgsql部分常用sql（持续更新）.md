@@ -11,7 +11,7 @@ categories:
 
 ### 建表
 ```sql
-CREATE TABLE xxx (
+CREATE TABLE t_xxx (
     id bigserial NOT NULL,
     xxx int8 NOT NULL,
     xxx varchar NOT NULL,
@@ -22,22 +22,37 @@ CREATE TABLE xxx (
 );
 
 CREATE TRIGGER tr_updated_at
-    BEFORE UPDATE ON xxx
+    BEFORE UPDATE ON t_xxx
     FOR EACH ROW EXECUTE PROCEDURE on_update_current_timestamp();
 ```
 
 ### 加字段
 ```sql
-ALTER TABLE xxx ADD COLUMN xxx jsonb NOT NULL DEFAULT '{}'::jsonb;
+ALTER TABLE t_xxx ADD COLUMN xxx jsonb NOT NULL DEFAULT '{}'::jsonb;
 ```
 
 ### 查锁解锁
 ```sql
-SELECT * FROM pg_locks WHERE relation::regclass = 'table_name'::regclass; -- 查锁
+SELECT * FROM pg_locks WHERE relation::regclass = 't_xxx'::regclass; -- 查锁
 SELECT pg_terminate_backend(97811); -- 释放锁
 ```
 
 ### 新增约束
 ```sql
-ALTER TABLE xxx ADD CONSTRAINT xxx UNIQUE (xxx);
+ALTER TABLE t_xxx ADD CONSTRAINT xxx UNIQUE (xxx);
+```
+
+### 改字段名
+```sql
+ALTER TABLE t_xxx RENAME COLUMN old_xxx TO new_xxx;
+```
+
+### 改字段类型
+```sql
+ALTER TABLE t_xxx ALTER COLUMN xxx TYPE varchar;
+```
+
+### 修改字段默认值
+```sql
+ALTER TABLE t_xxx ALTER COLUMN xxx SET DEFAULT '';
 ```
