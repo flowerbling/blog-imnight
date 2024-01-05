@@ -33,7 +33,7 @@ ALTER TABLE xxx ADD COLUMN xxx jsonb NOT NULL DEFAULT '{}'::jsonb;
 
 ### 查锁解锁
 ```sql
-SELECT * FROM pg_locks WHERE relation::regclass = 'chatbot_material_sources'::regclass; -- 查锁
+SELECT * FROM pg_locks WHERE relation::regclass = 'table_name'::regclass; -- 查锁
 SELECT pg_terminate_backend(97811); -- 释放锁
 ```
 
