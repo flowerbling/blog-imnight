@@ -1,9 +1,11 @@
 ---
 title: Github主页贪吃蛇贡献图
 date: 2024-01-08 16:42:02
+img: /images/snake.png
 tags: [花里胡哨]
 categories:
     - Github
+summary: github个人主页首页是通过一个markdown文件配置的 这里可以配置一些图片可一些链接 这样的话 主页就可以搞一些花里胡哨的东西了
 ---
 
 > github个人主页首页是通过一个markdown文件配置的 这里可以配置一些图片可一些链接 这样的话 主页就可以搞一些花里胡哨的东西了
